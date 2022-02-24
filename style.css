@@ -1,0 +1,63 @@
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: tahoma;
+}
+
+.nav {
+    padding: 0;
+    width: 100%;
+    background-color: #3f3f3f;
+}
+
+.nav ol a {
+    margin-right: 0.9rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+}
+
+.nav ol a:hover {
+    color: white;
+    transition: 1s;
+}
+
+.main {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.cprogramming {
+    margin: 0.1rem;
+    border: 5px solid black;
+    color: lightgreen;
+    width: 49%;
+    height: 20rem;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+    float: left;
+    background-color: #525252;
+}
+
+.css {
+    margin: 0.1rem;
+    border: 5px solid black;
+    color: lightblue;
+    float: left;
+    width: 49%;
+    height: 20rem;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+    background-color: #525252;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
